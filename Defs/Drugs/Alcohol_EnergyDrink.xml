@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ThingDef ParentName="MakeableDrugBase">
+    <defName>NonStop</defName>
+    <label>Non-Stop</label>
+    <description>Great energy drink “Non Stop”. Mix caffeine, taurine and a strong vitamin complex, which will relieve and give strength. Isn’t it possible to make some money? These are the very same things you need!</description>
+    <descriptionHyperlinks>
+      <HediffDef>NonStopHigh</HediffDef>
+      <HediffDef>NonStopAddiction</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Things/Item/Drug/NonStop</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+	  <drawSize>0.5</drawSize>
+    </graphicData>
+    <rotatable>false</rotatable>
+	 <stackLimit>20</stackLimit>
+    <statBases>
+      <WorkToMake>600</WorkToMake>
+      <MarketValue>53</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <joyKind>Chemical</joyKind>
+      <joy>0.40</joy>
+      <drugCategory>Social</drugCategory>
+      <foodType>Processed, Fluid</foodType>
+      <baseIngestTicks>80</baseIngestTicks>
+      <ingestSound>Ingest_Inject</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <useEatingSpeedStat>false</useEatingSpeedStat>
+      <chairSearchRadius>0</chairSearchRadius>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>NonStopHigh</hediffDef>
+          <severity>0.8</severity>
+          <toleranceChemical>NonStop</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Rest</need>
+          <offset>0.4</offset>
+          <toleranceChemical>NonStop</toleranceChemical>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <researchPrerequisite>DrugProduction</researchPrerequisite>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <soundWorking>Recipe_Drug</soundWorking>
+      <displayPriority>1500</displayPriority>
+    </recipeMaker>
+    <costList>
+      <WeirdBeer>1</WeirdBeer>
+      <Yayo>1</Yayo>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>NonStop</chemical>
+        <addictiveness>0.16</addictiveness>
+        <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+        <needLevelOffset>0.9</needLevelOffset>
+        <isCombatEnhancingDrug>true</isCombatEnhancingDrug>
+        <listOrder>200</listOrder>
+        <overdoseSeverityOffset>0.18~0.35</overdoseSeverityOffset>
+        <largeOverdoseChance>0.005</largeOverdoseChance>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <HediffDef>
+    <defName>NonStopHigh</defName>
+    <hediffClass>Hediff_High</hediffClass>
+    <label>high on NonStop</label>
+    <labelNoun>a NonStop high</labelNoun>
+    <description>Non stop in the bloodstream.</description>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.75</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+      <stages>
+        <li>
+          <capMods>
+            <li>
+              <capacity>Consciousness</capacity>
+              <offset>0.05</offset>
+            </li>
+            <li>
+              <capacity>Moving</capacity>
+              <offset>0.30</offset>
+            </li>
+          </capMods>
+        </li>
+      </stages>
+  </HediffDef>
+  
+  <ThoughtDef>
+    <defName>NonStopHigh</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>NonStopHigh</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>high on Non-Stop</label>
+        <description>I feel pumped but steady. I am the bullet in flight, ready to cut through you.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <!-- Go-juice addiction -->
+
+  <ChemicalDef>
+    <defName>NonStop</defName>
+    <label>NonStop</label>
+    <addictionHediff>NonStopAddiction</addictionHediff>
+    <geneOverdoseChanceFactorResist>0.5</geneOverdoseChanceFactorResist>
+    <geneOverdoseChanceFactorImmune>0</geneOverdoseChanceFactorImmune>
+  </ChemicalDef>
+  
+  <NeedDef ParentName="DrugAddictionNeedBase">
+    <defName>Chemical_NonStop</defName>
+    <needClass>Need_Chemical</needClass>
+    <label>Non-Stop</label>
+    <description>Because of a Non-Stop addiction, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
+    <fallPerDay>0.333</fallPerDay>
+    <listPriority>45</listPriority>
+  </NeedDef>
+
+  <HediffDef ParentName="AddictionBase">
+    <defName>NonStopAddiction</defName>
+    <label>Non-Stop addiction</label>
+    <description>A chemical addiction to NonStop. Long-term presence of go-juice has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.
+\nWithout regular doses of NonStop, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction.</description>
+    <hediffClass>Hediff_Addiction</hediffClass>
+    <causesNeed>Chemical_NonStop</causesNeed>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.045</severityPerDay>
+        <showDaysToRecover>true</showDaysToRecover>
+      </li>
+    </comps>
+    <stages>
+      <li>
+      </li>
+      <li>
+        <label>withdrawal</label>
+        <painFactor>3</painFactor>
+        <hungerRateFactorOffset>0.5</hungerRateFactorOffset>
+        <statOffsets>
+          <RestFallRateFactor>0.3</RestFallRateFactor>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.20</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.50</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>-0.20</offset>
+          </li>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>-0.20</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.10</offset>
+          </li>
+        </capMods>
+        <mentalStateGivers>
+          <li>
+            <mentalState>Binging_DrugExtreme</mentalState>
+            <mtbDays>40</mtbDays>
+          </li>
+          <li>
+            <mentalState>Wander_Psychotic</mentalState>
+            <mtbDays>10</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <ThoughtDef>
+    <defName>NonStopWithdrawal</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>NonStopAddiction</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>Non Stop withdrawal</label>
+        <description>I'm all fuzzy and can't think straight. My limbs feel heavy, I'm tired and hungry, everything hurts. And why won't my eyes focus properly?</description>
+        <baseMoodEffect>-22</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <HediffDef ParentName="DrugToleranceBase">
+    <defName>NonStopTolerance</defName>
+    <label>NonStop tolerance</label>
+    <description>A built-up tolerance to Non Stop. The more severe this tolerance is, the more go-juice it takes to get the same effect.</description>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.015</severityPerDay>
+      </li>
+      <li Class="HediffCompProperties_DrugEffectFactor">
+        <chemical>NonStop</chemical>
+      </li>
+    </comps>
+    <hediffGivers>
+            <li Class="HediffGiver_Random">
+              <hediff>HeartAttack</hediff>
+              <mtbDays>120</mtbDays>
+              <partsToAffect>
+                <li>Heart</li>
+              </partsToAffect>
+            </li>
+          </hediffGivers>
+  </HediffDef>
+  
+  
+
+  
+  
+</Defs>

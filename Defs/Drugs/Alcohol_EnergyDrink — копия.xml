@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- <ThingDef ParentName="MakeableDrugPillBase">
+    <defName>WakeUp</defName>
+    <label>wake-up</label>
+    <description>A synthetic stimulant. Wake-up fills the user's need for rest, allowing them to work for extended periods without getting tired. However, taking wake-up runs the risk of developing an addiction.\n\nIn the most competitive universities and companies of many worlds, high-achievers are sometimes called 'wake-ups' because of the association with this drug.</description>
+    <descriptionHyperlinks>
+      <HediffDef>WakeUpHigh</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Things/Item/Drug/WakeUp</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>900</WorkToMake>
+      <MarketValue>35</MarketValue>
+      <Mass>0.005</Mass>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <joyKind>Chemical</joyKind>
+      <joy>0.40</joy>
+      <drugCategory>Hard</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>WakeUpHigh</hediffDef>
+          <severity>0.75</severity>
+          <toleranceChemical>WakeUp</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Rest</need>
+          <offset>1.0</offset>
+          <toleranceChemical>WakeUp</toleranceChemical>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <researchPrerequisite>WakeUpProduction</researchPrerequisite>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <displayPriority>1800</displayPriority>
+    </recipeMaker>
+    <costList>
+      <Neutroamine>2</Neutroamine>
+    </costList>
+  </ThingDef>
+
+  <HediffDef>
+    <defName>WakeUpHigh</defName>
+    <label>high on wake-up</label>
+    <labelNoun>a wake-up high</labelNoun>
+    <description>Wake-up in the bloodstream. It fills the need for rest by stimulating the brain, and increases focus, allowing faster work. It also increases the psyfocus gains from meditation.</description>
+    <hediffClass>Hediff_High</hediffClass>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.5</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+      <stages>
+        <li>
+          <capMods>
+            <li>
+              <capacity>Consciousness</capacity>
+              <offset>0.1</offset>
+            </li>
+            <li>
+              <capacity>Moving</capacity>
+              <offset>0.1</offset>
+            </li>
+          </capMods>
+          <statOffsets>
+            <WorkSpeedGlobal>0.5</WorkSpeedGlobal>
+            <MeditationFocusGain MayRequire="Ludeon.RimWorld.Royalty">0.2</MeditationFocusGain>
+          </statOffsets>
+          <statFactors>
+            <RestFallRateFactor>0.8</RestFallRateFactor>
+          </statFactors>
+          <hediffGivers>
+            <li Class="HediffGiver_Random">
+              <hediff>HeartAttack</hediff>
+              <mtbDays>120</mtbDays>
+              <partsToAffect>
+                <li>Heart</li>
+              </partsToAffect>
+            </li>
+          </hediffGivers>
+        </li>
+      </stages>
+  </HediffDef>
+  
+ -->
+</Defs>
