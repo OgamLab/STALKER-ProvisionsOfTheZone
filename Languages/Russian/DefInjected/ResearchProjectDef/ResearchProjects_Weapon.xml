@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Gauss.label>Гаусс-оружие</Gauss.label>
+  <Gauss.description>Документация на «изделие №62». Документация, описывающая принцип работы и основные эксплуатационные характеристики электромагнитной установки.
+В документах есть примечание: «Документацию необходимо вернуть в центральную лабораторию (Х8). Я буду занят, можете доставить сами. В КБО «Юбилейный» воспользуйтесь магнитной картой — спуститесь на лифте на минус второй этаж, а дальше разберитесь сами. Карту доступа прилагаю».
+— Н. Лебедев
+Эти документы не должны попасть в чужие руки: они явно заинтересуют аналитиков СБУ.</Gauss.description>
+  <Gauss.generalRules.rulesStrings.0>subject-&gt;Пушка Гаусса</Gauss.generalRules.rulesStrings.0>
+
+  <Lightweightarmor.label>Легкая броня</Lightweightarmor.label>
+  <Lightweightarmor.description>Легкий комплект снаряжения. Обычно используется новичками, но пользуется уважением у опытных сталкеров,плохо защищенный от пуль стрелкового оружия.Изучайте и выбирайте только лучшую броню для вылазок в Зону!</Lightweightarmor.description>
+  <Lightweightarmor.generalRules.rulesStrings.0>subject-&gt;Легкая броня</Lightweightarmor.generalRules.rulesStrings.0>
+  
+   <Scientificarmor.label>Научный костюм</Scientificarmor.label>
+  <Scientificarmor.description>Научный комплект снаряжения. Обычно используется учёными, но пользуется уважением у опытных сталкеров,плохо защищенный от пуль стрелкового оружия.Изучайте и выбирайте только лучшую броню для вылазок в Зону!</Scientificarmor.description>
+  <Scientificarmor.generalRules.rulesStrings.0>subject-&gt;Научный костюм</Scientificarmor.generalRules.rulesStrings.0>
+
+  <Mediumarmor.label>Средняя броня</Mediumarmor.label>
+  <Mediumarmor.description>Средний комплект снаряжения с усиленным военным бронежилеом, хорошо защищенный от пуль стрелкового оружия.</Mediumarmor.description>
+  <Mediumarmor.generalRules.rulesStrings.0>subject-&gt;Средняя броня</Mediumarmor.generalRules.rulesStrings.0>
+
+  <Heavyarmor.label>Тяжелая броня</Heavyarmor.label>
+  <Heavyarmor.description>Тяжелый комплект снаряжения с усиленной броней. Обеспечивает надежную защиту от пуль и осколков. Способен защитить своего владельца от многих аномальных воздействий и радиации.</Heavyarmor.description>
+  <Heavyarmor.generalRules.rulesStrings.0>subject-&gt;Тяжелая броня</Heavyarmor.generalRules.rulesStrings.0>
+
+  <Lighthelmet.label>Легкий шлем</Lighthelmet.label>
+  <Lighthelmet.description>Легкий шлем. Обычно используется новичками, но пользуется уважением у опытных сталкеров. Изучайте и выбирайте только лучший шлем. для вылазок в Зону!</Lighthelmet.description>
+  <Lighthelmet.generalRules.rulesStrings.0>subject-&gt;Легкий шлем</Lighthelmet.generalRules.rulesStrings.0>
+
+  <Mediumhelmet.label>Средний шлем</Mediumhelmet.label>
+  <Mediumhelmet.description>Современный титановый шлем с арамидным покрытием.Получается хороший противогаз с фотохромными линзами.</Mediumhelmet.description>
+  <Mediumhelmet.generalRules.rulesStrings.0>subject-&gt;Средний шлем</Mediumhelmet.generalRules.rulesStrings.0>
+
+  <ExoskeletonI.label>Экзоскелет I</ExoskeletonI.label>
+  <ExoskeletonI.description>Первое поколение экзоскелетов, неуклюжих, громоздких и со множеством уязвимых точек.</ExoskeletonI.description>
+  <ExoskeletonI.generalRules.rulesStrings.0>subject-&gt;Экзоскелет I</ExoskeletonI.generalRules.rulesStrings.0>
+
+  <ExoskeletonII.label>Экзоскелет II</ExoskeletonII.label>
+  <ExoskeletonII.description>Второе поколение экзоскелетов.</ExoskeletonII.description>
+  <ExoskeletonII.generalRules.rulesStrings.0>subject-&gt;Экзоскелет II</ExoskeletonII.generalRules.rulesStrings.0>
+
+  <ExoskeletonIII.label>Экзоскелет III</ExoskeletonIII.label>
+  <ExoskeletonIII.description>Третье поколение экзоскелетов.</ExoskeletonIII.description>
+  <ExoskeletonIII.generalRules.rulesStrings.0>subject-&gt;Экзоскелет III</ExoskeletonIII.generalRules.rulesStrings.0>
+
+
+</LanguageData>

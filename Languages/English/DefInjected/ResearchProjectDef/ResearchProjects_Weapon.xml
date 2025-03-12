@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Gauss.label>Gauss weapon</Gauss.label>
+  <Gauss.description>Documentation for "product no.62".Documentation describing the operating principle and basic performance characteristics of the electromagnetic installation.
+A note is included in the documents: “The documentation must be returned to the central laboratory (X8). I will be busy, you can deliver it yourself. In the Yubileiny KBO, use the magnetic card - go down the elevator to the minus second floor, and figure out the rest yourself. I am enclosing the access card.”
+— N. Lebedev
+These documents must not fall into the wrong hands: they will clearly interest SBU analysts.</Gauss.description>
+  <Gauss.generalRules.rulesStrings.0>subject-&gt;Gauss gun</Gauss.generalRules.rulesStrings.0>
+
+
+</LanguageData>

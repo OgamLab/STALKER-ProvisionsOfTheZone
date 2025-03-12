@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ <ResearchTabDef>
+    <defName>STALKER</defName>
+    <label>S.T.A.L.K.E.R</label>
+    <generalTitle>STALKER research projects</generalTitle>
+    <generalDescription>Unlock STALKER research projects.</generalDescription>
+    <visibleByDefault>true</visibleByDefault>
+    <tutorTag>Research-Tab-STALKER</tutorTag>
+  </ResearchTabDef>
+
+  <ResearchProjectDef>
+    <defName>Gauss</defName>
+    <label>Gauss weapon</label>
+    <description>Documentation for "product no.62".Documentation describing the operating principle and basic performance characteristics of the electromagnetic installation.
+A note is included in the documents: “The documentation must be returned to the central laboratory (X8). I will be busy, you can deliver it yourself. In the Yubileiny KBO, use the magnetic card - go down the elevator to the minus second floor, and figure out the rest yourself. I am enclosing the access card.”
+— N. Lebedev
+These documents must not fall into the wrong hands: they will clearly interest SBU analysts.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+	 <tab>STALKER</tab>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <hiddenPrerequisites>
+      <li>Machining</li>
+    </hiddenPrerequisites>
+    <techprintCount>1</techprintCount>
+    <techprintCommonality>2</techprintCommonality>
+    <techprintMarketValue>2000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Empire</li>
+      <li>Outlander</li>
+    </heldByFactionCategoryTags>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Gauss gun</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Lightweightarmor</defName>
+    <label>lightweight armor</label>
+    <description>Lightweight gear. Usually used by beginners, but gains respect from experienced stalkers who are poorly protected from small arms bullets.</description>
+    <tab>STALKER</tab>
+	 <techLevel>Industrial</techLevel>
+    <baseCost>2000</baseCost>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->lightweight armor</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+   
+    <ResearchProjectDef>
+    <defName>Scientificarmor</defName>
+    <label>Scientific suit</label>
+    <description>Scientific set of equipment with reinforced military body armor, well protected from small arms bullets.</description>
+    <tab>STALKER</tab>
+	 <techLevel>Industrial</techLevel>
+	 <prerequisites>
+      <li>Lightweightarmor</li>
+    </prerequisites>
+    <baseCost>3000</baseCost>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Scientific suit</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef> 
+  
+  <ResearchProjectDef>
+    <defName>Mediumarmor</defName>
+    <label>Medium armor</label>
+    <description>Medium set of equipment with reinforced military body armor, well protected from small arms bullets.</description>
+    <tab>STALKER</tab>
+	 <techLevel>Industrial</techLevel>
+	 <prerequisites>
+      <li>Lightweightarmor</li>
+    </prerequisites>
+    <baseCost>3000</baseCost>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Medium armor</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>Heavyarmor</defName>
+    <label>Heavy armor</label>
+    <description>A heavy set of equipment with reinforced body armor Provides reliable protection against bullet and shrapnel damage. Capable of protecting its wearer from many abnormal effects and radiation.</description>
+    <tab>STALKER</tab>
+	 <techLevel>Industrial</techLevel>
+	 <prerequisites>
+      <li>Mediumarmor</li>
+    </prerequisites>
+    <baseCost>4000</baseCost>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Heavy armor</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  
+  
+    <ResearchProjectDef>
+    <defName>Lighthelmet</defName>
+    <label>lightweight helmet</label>
+    <description>Lightweight  helmet. Usually used by beginners, but respected by experienced stalkers.Study and choose only the best helmet. for forays into the Zone!</description>
+    <tab>STALKER</tab>
+	 <prerequisites>
+      <li>Lightweightarmor</li>
+    </prerequisites>
+	 <techLevel>Industrial</techLevel>
+    <baseCost>1000</baseCost>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->lightweight helmet</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  
+  
+  <ResearchProjectDef>
+    <defName>Mediumhelmet</defName>
+    <label>Medium helmet</label>
+    <description>Modern titanium helmet with aramid coating.It turns out to be a good gas mask with photochromic lenses.</description>
+    <tab>STALKER</tab>
+	 <techLevel>Industrial</techLevel>
+	 <prerequisites>
+      <li>Lighthelmet</li>
+    </prerequisites>
+    <baseCost>1500</baseCost>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Medium helmet</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+
+
+ <ResearchProjectDef>
+    <defName>ExoskeletonI</defName>
+    <label>Exoskeleton I</label>
+    <description>The first generation of exoskeletons, clumsy, bulky and with many vulnerable points.</description>
+    <tab>STALKER</tab>
+	 <techLevel>Industrial</techLevel>
+	 <prerequisites>
+      <li>Mediumarmor</li>
+    </prerequisites>
+    <baseCost>4000</baseCost>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>0.50</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->ExoskeletonI</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>ExoskeletonII</defName>
+    <label>Exoskeleton II</label>
+    <description>Second generation of exoskeletons.</description>
+    <tab>STALKER</tab>
+	 <techLevel>Industrial</techLevel>
+	 <prerequisites>
+      <li>ExoskeletonI</li>
+    </prerequisites>
+    <baseCost>4500</baseCost>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>0.50</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->ExoskeletonII</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>ExoskeletonIII</defName>
+    <label>Exoskeleton III</label>
+    <description>Third generation of exoskeletons.</description>
+    <tab>STALKER</tab>
+	 <techLevel>Industrial</techLevel>
+	 <prerequisites>
+      <li>ExoskeletonII</li>
+    </prerequisites>
+    <baseCost>5000</baseCost>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>0.50</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->ExoskeletonIII</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+</Defs>

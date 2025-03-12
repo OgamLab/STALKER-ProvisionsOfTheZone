@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+
+<ThingDef ParentName="ArmorSmithableBase">
+    <defName>Stalker_Apparel_ArmorMerc</defName>
+    <label>Mercenary Suit</label>
+    <description>Mercenary-designed suit, based on special forces gear. High molecular polyethylene plates and aramid padding not only sound futuristic, but provide excellent protection from high-corrosion Zone weapons.</description>
+    <possessionCount>1</possessionCount>
+  <recipeMaker Inherit="False">
+     <researchPrerequisite>FlakArmor</researchPrerequisite>
+      <recipeUsers Inherit="False">
+				<li>TableMachining</li>
+	  </recipeUsers>
+      <workSkill>Crafting</workSkill>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <displayPriority>520</displayPriority>
+    </recipeMaker>
+	 <costList Inherit="False">
+      <Plasteel>15</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
+	  <Cloth>90</Cloth>
+    </costList>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Merc/Merc</texPath>
+       <graphicClass>Graphic_Single</graphicClass> 
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <WorkToMake>38000</WorkToMake>
+      <MaxHitPoints>290</MaxHitPoints>
+      <Mass>7</Mass>
+      <StuffEffectMultiplierArmor>0.60</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.35</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>15</EquipDelay>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.8</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Clothing</li>
+      <li>Armor</li>
+    </tradeTags>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Merc/Merc</wornGraphicPath>
+	   <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+	    <li>LightArmor</li>
+        <li>IndustrialMilitaryBasic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>StalkerMerc</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+	 <researchPrerequisites>
+      <li>Lightweightarmor</li>
+	  <li>FlakArmor</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+ 
+ 
+ 
+<ThingDef ParentName="ArmorSmithableBase">
+    <defName>Stalker_Apparel_ArmorMarauder</defName>
+    <label>Marauder Suit</label>
+    <description>A combination of a stylish jacket and a decent bulletproof vest. This outfit may not be the top choice for exploring anomalies, but when it comes to shaking down a hapless stalker, you can’t get any better than this.</description>
+    <possessionCount>1</possessionCount>
+   <recipeMaker Inherit="False">
+     <researchPrerequisite>FlakArmor</researchPrerequisite>
+      <recipeUsers Inherit="False">
+				<li>TableMachining</li>
+	  </recipeUsers>
+      <workSkill>Crafting</workSkill>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <displayPriority>520</displayPriority>
+    </recipeMaker>
+	 <costList Inherit="False">
+      <Plasteel>15</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
+	  <Cloth>90</Cloth>
+    </costList>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Marauder/Marauder</texPath>
+       <graphicClass>Graphic_Single</graphicClass> 
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <WorkToMake>38000</WorkToMake>
+      <MaxHitPoints>290</MaxHitPoints>
+      <Mass>15</Mass>
+      <StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>15</EquipDelay>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.3</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Clothing</li>
+      <li>Armor</li>
+    </tradeTags>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Marauder/Marauder</wornGraphicPath>
+	   <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+	     <li>LightArmor</li>
+         <li>IndustrialMilitaryBasic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Stalker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+	 <researchPrerequisites>
+      <li>Lightweightarmor</li>
+	  <li>FlakArmor</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  
+	<ThingDef ParentName="ArmorSmithableBase">
+    <defName>Stalker_Apparel_PSZ5A</defName>
+    <label>PSZ-5D Universal Protection</label>
+    <description>An upgraded version of the PSZ-5 specifically adapted for mutant hunting, produced by Duty’s skilled technicians.</description>
+    <possessionCount>1</possessionCount>
+  <recipeMaker Inherit="False">
+     <researchPrerequisite>FlakArmor</researchPrerequisite>
+      <recipeUsers Inherit="False">
+		<li>TableMachining</li>
+	  </recipeUsers>
+      <workSkill>Crafting</workSkill>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <displayPriority>520</displayPriority>
+    </recipeMaker>
+	 <costList Inherit="False">
+      <Plasteel>15</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
+	  <Cloth>90</Cloth>
+    </costList>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/PSZ-5/PSZIco</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutMultiMask</shaderType>
+    </graphicData>
+    <statBases>
+      <WorkToMake>38000</WorkToMake>
+      <MaxHitPoints>290</MaxHitPoints>
+      <Mass>15</Mass>
+      <StuffEffectMultiplierArmor>0.53</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>15</EquipDelay>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.3</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Clothing</li>
+      <li>Armor</li>
+    </tradeTags>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/PSZ-5/PSZ-5</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+	    <li>LightArmor</li>
+        <li>IndustrialMilitaryBasic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Stalker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+	<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+				<defaultPalette>
+					<colorOne>(79,79,34)</colorOne>
+					<colorTwo>(112,135,112)</colorTwo>
+					<colorThree>(132,132,192)</colorThree>
+				</defaultPalette>
+			</li>
+		</modExtensions>
+	 <researchPrerequisites>
+      <li>Lightweightarmor</li>
+	  <li>FlakArmor</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  
+  <ThingDef ParentName="ArmorSmithableBase">
+    <defName>Stalker_Apparel_Tourist</defName>
+    <label>Tourist Suit</label>
+    <description>The former owner of this suit had an excellent understanding of weight distribution and echeloning of equipment. Redesigned pockets, a corset that relieves the back, additional pouches and a travel backpack allow you to carry more weight, which is very handy during long raids into the Zone.</description>
+    <possessionCount>1</possessionCount>
+  <recipeMaker Inherit="False">
+     <researchPrerequisite>FlakArmor</researchPrerequisite>
+      <recipeUsers Inherit="False">
+		<li>TableMachining</li>
+	  </recipeUsers>
+      <workSkill>Crafting</workSkill>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <displayPriority>520</displayPriority>
+    </recipeMaker>
+	 <costList Inherit="False">
+      <Plasteel>15</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
+	  <Cloth>90</Cloth>
+    </costList>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Tourist/Tourist</texPath>
+       <graphicClass>Graphic_Single</graphicClass> 
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <WorkToMake>38000</WorkToMake>
+      <MaxHitPoints>290</MaxHitPoints>
+      <Mass>5</Mass>
+      <StuffEffectMultiplierArmor>0.55</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.65</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>15</EquipDelay>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.3</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Clothing</li>
+      <li>Armor</li>
+    </tradeTags>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Tourist/Tourist</wornGraphicPath>
+	   <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+	    <li>LightArmor</li>
+        <li>IndustrialMilitaryBasic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Stalker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+	 <researchPrerequisites>
+      <li>Lightweightarmor</li>
+	  <li>FlakArmor</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+   <ThingDef ParentName="ArmorSmithableBase">
+    <defName>Stalker_Apparel_Sunrise</defName>
+    <label>Sunrise Suit</label>
+    <description>A masterpiece of local craftsmenship, this suit combines two layers of rubberized fabric with a polymer lining and a bulletproof vest effective against pistol bullets. The Sunrise’s reasonable price and upgrade potential have solidified its status as a top-selling item.</description>
+    <possessionCount>1</possessionCount>
+  <recipeMaker Inherit="False">
+     <researchPrerequisite>FlakArmor</researchPrerequisite>
+      <recipeUsers Inherit="False">
+		<li>TableMachining</li>
+	  </recipeUsers>
+      <workSkill>Crafting</workSkill>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <displayPriority>520</displayPriority>
+    </recipeMaker>
+	 <costList Inherit="False">
+      <Plasteel>15</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
+	  <Cloth>90</Cloth>
+    </costList>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Sunrise/Sunrise</texPath>
+       <graphicClass>Graphic_Single</graphicClass> 
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <WorkToMake>38000</WorkToMake>
+      <MaxHitPoints>290</MaxHitPoints>
+      <Mass>5</Mass>
+      <StuffEffectMultiplierArmor>0.53</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>15</EquipDelay>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.3</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Clothing</li>
+      <li>Armor</li>
+    </tradeTags>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Sunrise/Sunrise</wornGraphicPath>
+	   <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+	    <li>LightArmor</li>
+        <li>IndustrialMilitaryBasic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Stalker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+	 <researchPrerequisites>
+      <li>Lightweightarmor</li>
+	  <li>FlakArmor</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+     <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Stalker_Apparel_Beryl</defName>
+    <label>Berill-5M Armored Suit</label>
+    <description>Designed for army special forces, this specialized armored suit is an extensive upgrade of the PSZ-5 series. While not the most practical option for extended ventures into the Zone, its users seldom find themselves in such scenarios.</description>
+    <possessionCount>1</possessionCount>
+     <recipeMaker Inherit="False">
+     <researchPrerequisite>FlakArmor</researchPrerequisite>
+      <recipeUsers Inherit="False">
+				<li>TableMachining</li>
+	  </recipeUsers>
+      <workSkill>Crafting</workSkill>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <displayPriority>520</displayPriority>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Beryl/Beryl</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <costList Inherit="False">
+      <Plasteel>150</Plasteel>
+      <ComponentSpacer>6</ComponentSpacer>
+	  <Cloth>100</Cloth>
+    </costList>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <statBases>
+      <WorkToMake>38000</WorkToMake>
+      <MaxHitPoints>290</MaxHitPoints>
+      <Mass>15</Mass>
+      <StuffEffectMultiplierArmor>0.65</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.4</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.6</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>15</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+	  <MoveSpeed>-0.2</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+	   <tags>
+         <li>IndustrialMilitaryBasic</li>
+		 <li>LightArmor</li>
+      </tags>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Beryl/Beryl</wornGraphicPath>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Shell</li>
+      </layers>
+	   <defaultOutfitTags>
+        <li>Stalker</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.4,0.3,0.15)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.5,0.5,0.5)</min>
+          <max>(1,1,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+    <tradeTags>
+      <li>BasicClothing</li>
+    </tradeTags>
+	 <researchPrerequisites>
+      <li>Lightweightarmor</li>
+	  <li>FlakArmor</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  
+  
+    <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Stalker_Apparel_PSZ-9I</defName>
+    <label>PSZ-9I Falcon</label>
+    <description>Guerilla warfare in the Zone is a entire art on its own, and this suit is the creation of those who have mastered it. A Sparker version of one of the most efficient armored suits across this side of the Perimeter.</description>
+    <possessionCount>1</possessionCount>
+     <recipeMaker Inherit="False">
+     <researchPrerequisite>FlakArmor</researchPrerequisite>
+      <recipeUsers Inherit="False">
+				<li>TableMachining</li>
+	  </recipeUsers>
+      <workSkill>Crafting</workSkill>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <displayPriority>520</displayPriority>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/PSZ-9/PSZ-9</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <costList Inherit="False">
+      <Plasteel>150</Plasteel>
+      <ComponentSpacer>6</ComponentSpacer>
+	  <Cloth>100</Cloth>
+    </costList>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <statBases>
+      <WorkToMake>38000</WorkToMake>
+      <MaxHitPoints>290</MaxHitPoints>
+      <Mass>15</Mass>
+      <StuffEffectMultiplierArmor>0.65</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.4</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.6</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>15</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+	  <MoveSpeed>-0.2</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+	   <tags>
+         <li>IndustrialMilitaryBasic</li>
+		 <li>LightArmor</li>
+      </tags>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/PSZ-9/PSZ-9</wornGraphicPath>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Shell</li>
+      </layers>
+	   <defaultOutfitTags>
+        <li>Stalker</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.4,0.3,0.15)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.5,0.5,0.5)</min>
+          <max>(1,1,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+    <tradeTags>
+      <li>BasicClothing</li>
+    </tradeTags>
+	 <researchPrerequisites>
+      <li>Lightweightarmor</li>
+	  <li>FlakArmor</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+</Defs>

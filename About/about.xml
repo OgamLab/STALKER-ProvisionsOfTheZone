@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>S.T.A.L.K.E.R. - Call of Rimworld(Weapon)</name>
+	<author>Watcher011/Mortis</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<packageId>STLKR.CallofRimworld.Weapon</packageId>
+	<description>Description:
+	 For testing Weapon only
+	 
+	 (supports:Show Me Your Hands / Muzzle Flash)
+	 
+	- PTM,Viper-5  - Corundum Suit
+	- M10 Gordon   - Exohelmet
+	- Grom S-14    - Mercenary Suit
+	- OBREZ        - PA-7 Gas Mask
+	- TOZ-34       - PG-4 Facehugger Gas Mask
+	- M860 Cracker - Marauder Suit
+	- TOZ BM-16    - PA-10 Gas Mask
+	- Otboynic     - PSZ-5D Universal Protection
+	- SPSA-12      - Aeroprotection Gas Mask
+	- Saiga-12k    - PSZ-20W Convoy
+	- Grom S-14    - Tourist Suit
+	- AKM-74       - Sunrise Suit
+	- Dnipro
+	- AKSU
+	- Fora-221
+	- FN F2000G
+	- IL-86
+	- SSR
+	- VAL
+	- GP-37
+	- Trc-301
+	- SGI
+	- HK-416
+	- Buket S-2
+	- Rhino
+	- PKM
+	- SVU
+	- SVD
+	- Mark I EMR
+	- RPG-7
+	- M701 Super
+	- Item 62
+	- Bulldog-6
+	- Integral-A
+	- Zubr-19
+	- FN Five-seven
+	</description>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>telefonmast.itempainter</packageId>
+			<displayName>Item Painter</displayName>
+			<downloadUrl>https://github.com/MaxDorob/RW_ItemPainter</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>CETeam.CombatExtended</li>
+		<li>IssacZhuang.MuzzleFlash</li>
+		<li>Mlie.ShowMeYourHands</li>
+		<li>telefonmast.itempainter</li>
+	</loadAfter>
+</ModMetaData>

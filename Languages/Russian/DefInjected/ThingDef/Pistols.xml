@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Industrial -->
+
+  <Gun_PTM.label>ПТМ</Gun_PTM.label>
+  <Gun_PTM.description>Пистолет табельный модернизированный это наиболее распространённый в зоне пистолет — наследие советской эпохи. Достаточно надёжен и дёшев, но отличается невысокой ёмкостью магазина при недостаточной мощности и неудовлетворительной кучности патрона. Основное оружие сталкера-новичка.</Gun_PTM.description>
+  <Gun_PTM.tools.0.label>рукоятка</Gun_PTM.tools.0.label>
+  <Gun_PTM.tools.1.label>ствол</Gun_PTM.tools.1.label>
+
+  <Bullet_PTM.label>ПТМ пуля</Bullet_PTM.label>
+
+  <Gun_APS.label>АПС</Gun_APS.label>
+  <Gun_APS.description>Пистолет с глушителем, когда-то основной продукт советских спецподразделений. В Зоне он быстро стал инструментом выбора для скрытного решения всех видов проблем.</Gun_APS.description>
+  <Gun_APS.tools.0.label>рукоятка</Gun_APS.tools.0.label>
+  <Gun_APS.tools.1.label>ствол</Gun_APS.tools.1.label>
+
+  <Bullet_APS.label>пуля АПС</Bullet_APS.label>
+
+  <Gun_Viper.label>Гадюка-5</Gun_Viper.label>
+  <Gun_Viper.description>Данный пистолет-пулемёт заслуженно пользуется огромной популярностью благодаря надёжности, удобству в обращении и высокой точности стрельбы. Принятый на вооружение армейских и полицейских подразделений многих стран, он появился и на чёрном рынке и со временем добрался до Зоны.</Gun_Viper.description>
+  <Gun_Viper.tools.0.label>рукоятка</Gun_Viper.tools.0.label>
+  <Gun_Viper.tools.1.label>ствол</Gun_Viper.tools.1.label>
+
+  <Bullet_Viper.label>Гадюка пуля</Bullet_Viper.label>
+
+  <Gun_M10Gordon.label>М10 Гордон</Gun_M10Gordon.label>
+  <Gun_M10Gordon.description>Низкая цена и низкая точность — вот все, что вам нужно знать об этом пистолете-пулемете. Особенно популярен среди новичков, но не надолго. Жизнь в реальной Зоне вскоре покажет, насколько рискованно экономить на снаряжении.</Gun_M10Gordon.description>
+  <Gun_M10Gordon.tools.0.label>рукоятка</Gun_M10Gordon.tools.0.label>
+  <Gun_M10Gordon.tools.1.label>ствол</Gun_M10Gordon.tools.1.label>
+
+  <Bullet_M10Gordon.label>М10 Гордон пуля</Bullet_M10Gordon.label>
+
+  <Gun_Buket.label>Букет С-2</Gun_Buket.label>
+  <Gun_Buket.description>Букет С-2 — универсальное оружие для ближнего и даже среднего боя. Благодаря низкой скорострельности и отдаче им легко управлять, стреляя в автоматическом режиме. Букет С-2 использует 9x18 мм, один из самых распространенных и дешевых типов боеприпасов, встречающихся в Зоне. В сочетании с бронебойным вариантом 9x18 мм Букет С-2 может с легкостью уничтожать бронированных противников. Самая большая слабость Букета — это малая емкость магазина в 20 патронов + 1 в патроннике. Для Букета обязательно нужно приобрести магазин большой емкости, которая увеличивает емкость до 30 патронов. Ремонт и модернизация Букета также относительно дешевы (по сравнению с другим основным оружием).Букет С-2 может стать хорошим компаньоном для Сталкера, ищущего ближнего боя, или для того, кто ищет надежное запасное оружие.</Gun_Buket.description>
+  <Gun_Buket.tools.0.label>рукоятка</Gun_Buket.tools.0.label>
+  <Gun_Buket.tools.1.label>ствол</Gun_Buket.tools.1.label>
+
+  <Bullet_Buket.label>пуля Букета</Bullet_Buket.label>
+
+  <Gun_Colt.label>Rhino</Gun_Colt.label>
+  <Gun_Colt.description>Первоначально использовавшийся как пистолет для охоты на африканских буйволов, Rhino — чрезвычайно мощный револьвер, который разносит врагов на ближней и средней дистанции и особенно эффективен против радиоактивных мутантов. Мощность Rhino такова, что он даже может соперничать с некоторыми дробовиками, но при этом не идет на компромиссы по точности или дальности, что делает его лучшим личным оружием в целом с точки зрения чистой мощи. Единственным реальным недостатком является ограниченная емкость боеприпасов и громкость, которая может довольно часто предупреждать находящихся поблизости врагов.</Gun_Colt.description>
+  <Gun_Colt.tools.0.label>рукоятка</Gun_Colt.tools.0.label>
+  <Gun_Colt.tools.1.label>ствол</Gun_Colt.tools.1.label>
+
+  <Bullet_Colt.label>пуля Rhino</Bullet_Colt.label>
+
+  <Gun_IntegralA.label>Интеграл-А</Gun_IntegralA.label>
+  <Gun_IntegralA.description>Элитный пистолет-пулемет, известный своей эффективностью в ограниченном пространстве. Любимец опытных сталкеров.</Gun_IntegralA.description>
+  <Gun_IntegralA.tools.0.label>рукоятка</Gun_IntegralA.tools.0.label>
+  <Gun_IntegralA.tools.1.label>ствол</Gun_IntegralA.tools.1.label>
+
+  <Bullet_IntegralA.label>Интеграл пуля</Bullet_IntegralA.label>
+
+  <Gun_Zubr.label>Зубр-19</Gun_Zubr.label>
+  <Gun_Zubr.description>Зубр-19 — пистолет-пулемет. Оружие имеет следующие характеристики: Магазин на 50 патронов по умолчанию. Очень высокая скорострельность. Большое количество боеприпасов калибра 9x19.</Gun_Zubr.description>
+  <Gun_Zubr.tools.0.label>рукоятка</Gun_Zubr.tools.0.label>
+  <Gun_Zubr.tools.1.label>ствол</Gun_Zubr.tools.1.label>
+
+  <Bullet_Zubr.label>Зубр пуля</Bullet_Zubr.label>
+
+  <Gun_FNFive.label>FN Five-seven</Gun_FNFive.label>
+  <Gun_FNFive.description>FN Five-seven стоит на вооружении элитных наемников, работающих на севере зоны. Он высоко ценится сталкерами, но если наемники поймают вас с этим оружием, они убьют вас на месте.</Gun_FNFive.description>
+  <Gun_FNFive.tools.0.label>рукоятка</Gun_FNFive.tools.0.label>
+  <Gun_FNFive.tools.1.label>ствол</Gun_FNFive.tools.1.label>
+
+  <Bullet_FNF.label>FNF пуля</Bullet_FNF.label>
+
+
+</LanguageData>

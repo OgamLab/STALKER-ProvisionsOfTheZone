@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+
+
+  <MakeAmmo_Gauss_Abnormal.label>Сделать Аномальный аккумуляторный картридж Гаусса х 10</MakeAmmo_Gauss_Abnormal.label>
+  <MakeAmmo_Gauss_Abnormal.description>Изготовить 10 Аномальнх батарей для Гаусса.</MakeAmmo_Gauss_Abnormal.description>
+  <MakeAmmo_Gauss_Abnormal.jobString>Изготовление батарей для Гаусса.</MakeAmmo_Gauss_Abnormal.jobString>
+  <MakeAmmo_Gauss_charge.label>сделать картридж батареек для Гаусса x10</MakeAmmo_Gauss_charge.label>
+  <MakeAmmo_Gauss_charge.description>Изготовить 10 батарей для Гаусса.</MakeAmmo_Gauss_charge.description>
+  <MakeAmmo_Gauss_charge.jobString>Изготовление батарей для Гаусса.</MakeAmmo_Gauss_charge.jobString>
+  <MakeAmmo_Gauss_homemade.label>сделать самодельный картридж батареек для Гаусса x10</MakeAmmo_Gauss_homemade.label>
+  <MakeAmmo_Gauss_homemade.description>Изготовить 10 самодельных батарей для Гаусса.</MakeAmmo_Gauss_homemade.description>
+  <MakeAmmo_Gauss_homemade.jobString>Изготовление батарей для Гаусса.</MakeAmmo_Gauss_homemade.jobString>
+
+</LanguageData>

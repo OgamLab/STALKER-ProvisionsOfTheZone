@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Gun_Groza.label>Гром С-14</Gun_Groza.label>
+  <Gun_Groza.description>Автоматическая винтовка и гранатометный комплекс – конфигурация штурмовой винтовки, которая может оказаться весьма полезной в Зоне. Хорошо подойдет любителям максимальной огневой мощи как на коротких, так и на средних дистанциях.</Gun_Groza.description>
+  <Gun_Groza.tools.0.label>рукоятка</Gun_Groza.tools.0.label>
+  <Gun_Groza.tools.1.label>ствол</Gun_Groza.tools.1.label>
+
+  <Bullet_Groza.label>пуля винтовки Гроза</Bullet_Groza.label>
+
+
+  <!-- UnderBarrel Bullet -->
+
+  <STLKR_UBLGrenade.label>граната</STLKR_UBLGrenade.label>
+
+  <Gun_AKM74M.label>АКМ-74</Gun_AKM74M.label>
+  <Gun_AKM74M.description>Складной автомат образца 1974 года под патрон 5,45×39. Простое и надежное оружие, хотя дешевизна производства несколько сказалась на удобстве использования и точности боя. В Зоне это основное оружие военных, сталкеров и многих одиночек.</Gun_AKM74M.description>
+  <Gun_AKM74M.tools.0.label>рукоятка</Gun_AKM74M.tools.0.label>
+  <Gun_AKM74M.tools.1.label>ствол</Gun_AKM74M.tools.1.label>
+
+  <Bullet_AK.label>пуля АК</Bullet_AK.label>
+
+  <Gun_Dnipro.label>Днепр</Gun_Dnipro.label>
+  <Gun_Dnipro.description>Идеальная штурмовая винтовка под патроны 5.45x39. Отличный урон и высокий процент бронебойности — залог успеха. Да, она дорогая в обслуживании, но она того заслуживает. Лучший пулемет, после которого можно забыть о проблемах с балансом и завышенном здоровье монстров.</Gun_Dnipro.description>
+  <Gun_Dnipro.tools.0.label>рукоятка</Gun_Dnipro.tools.0.label>
+  <Gun_Dnipro.tools.1.label>ствол</Gun_Dnipro.tools.1.label>
+
+  <Bullet_Dnipro.label>пуля Днепр</Bullet_Dnipro.label>
+
+  <Gun_AKSU.label>АКСУ</Gun_AKSU.label>
+  <Gun_AKSU.description>По габаритам и массе близок к пистолетам-пулеметам, но механизм практически полностью идентичен АКМ-74/2. Небольшие габариты оружия позволяют успешно использовать его в городских условиях и стесненных условиях, а пробивная сила пули достаточно высока. Из недостатков — малая прицельная дальность и склонность к быстрому перегреву.</Gun_AKSU.description>
+  <Gun_AKSU.tools.0.label>рукоятка</Gun_AKSU.tools.0.label>
+  <Gun_AKSU.tools.1.label>ствол</Gun_AKSU.tools.1.label>
+
+  <Bullet_AKSU.label>пуля АКСУ</Bullet_AKSU.label>
+
+  <Gun_Fora.label>Фора-221</Gun_Fora.label>
+  <Gun_Fora.description>Эта модульная штурмовая винтовка нового поколения заслужила множество престижных мировых наград, а также неофициальные похвалы от сообщества сталкеров.</Gun_Fora.description>
+  <Gun_Fora.tools.0.label>рукоятка</Gun_Fora.tools.0.label>
+  <Gun_Fora.tools.1.label>ствол</Gun_Fora.tools.1.label>
+
+  <Bullet_Fora.label>пуля Фora</Bullet_Fora.label>
+
+  <Gun_FNF2000G.label>FN F2000G</Gun_FNF2000G.label>
+  <Gun_FNF2000G.description>Автоматическая винтовка и гранатометный комплекс — конфигурация штурмовой винтовки, которая может оказаться весьма полезной в Зоне. Хорошо подойдет любителям максимальной огневой мощи как на коротких, так и на средних дистанциях. Это футуристический вид оружия — серийно сменяемый автоматический гранатометный комплекс модульной конструкции. Оснащен 40-мм гранатометом и компьютеризированным прицельно-управляющим модулем. Несмотря на внешнюю громоздкость, он очень эргономичен, прост в управлении огнем во всех режимах и очень надежен.</Gun_FNF2000G.description>
+  <Gun_FNF2000G.tools.0.label>рукоятка</Gun_FNF2000G.tools.0.label>
+  <Gun_FNF2000G.tools.1.label>ствол</Gun_FNF2000G.tools.1.label>
+
+  <Bullet_FNF2000G.label>Пуля винтовки FN F2000G</Bullet_FNF2000G.label>
+
+  <Gun_FNF2000A.label>FN F2000</Gun_FNF2000A.label>
+  <Gun_FNF2000A.description>Автоматическая винтовочная система — конфигурация штурмовой винтовки, которая может оказаться весьма полезной в Зоне. Хорошо подойдет любителям максимальной огневой мощи как на коротких, так и на средних дистанциях. Это футуристический тип оружия — модульной конструкции. Несмотря на внешнюю громоздкость, он очень эргономичен, прост в управлении огнем во всех режимах и очень надежен.</Gun_FNF2000A.description>
+  <Gun_FNF2000A.tools.0.label>ложа</Gun_FNF2000A.tools.0.label>
+  <Gun_FNF2000A.tools.1.label>ствол</Gun_FNF2000A.tools.1.label>
+
+  <Bullet_FNF2000A.label>пуля винтовки FNF2000</Bullet_FNF2000A.label>
+
+  <Gun_IL86A.label>IL-86</Gun_IL86A.label>
+  <Gun_IL86A.description>Недостатки этой винтовки, выявленные в ходе эксплуатации, привели к тому, что большая часть оружия была модернизирована, а списанные партии через черный рынок попали в Зону. Главные преимущества — штатный четырехкратный оптический прицел, высокая точность одиночного выстрела и большой потенциал модернизации. При стрельбе очередями резко падает точность боя, а автоматика проявляет тенденцию к задержкам.</Gun_IL86A.description>
+  <Gun_IL86A.tools.0.label>рукоятка</Gun_IL86A.tools.0.label>
+  <Gun_IL86A.tools.1.label>ствол</Gun_IL86A.tools.1.label>
+
+  <Bullet_IL86A.label>пуля IL86</Bullet_IL86A.label>
+
+  <Gun_Vintar.label>ВСС</Gun_Vintar.label>
+  <Gun_Vintar.description>"Винтовка снайперская специальная" предназначена для бесшумной и беспламенной снайперской стрельбы при проведении спецопераций, когда необходимо сохранить в тайне местонахождение стрелка. Боеприпасы обеспечивают высокое бронебойное и останавливающее действие, кроме того, оружие оснащено интегрированным глушителем и оптикой. Несмотря на небольшую емкость магазина, высоко ценится сталкерами.</Gun_Vintar.description>
+  <Gun_Vintar.tools.0.label>рукоятка</Gun_Vintar.tools.0.label>
+  <Gun_Vintar.tools.1.label>ствол</Gun_Vintar.tools.1.label>
+
+  <Bullet_Vintar.label>пуля ВСС</Bullet_Vintar.label>
+
+  <Gun_VAL.label>ВАЛ</Gun_VAL.label>
+  <Gun_VAL.description>Создан на базе бесшумной снайперской винтовки «Винтар-ВС», от которой отличается складным прикладом, штатной возможностью стрельбы очередями и более емким магазином. Первоначально он предназначался для использования спецподразделениями в условиях, требующих бесшумной и беспламенной стрельбы.</Gun_VAL.description>
+  <Gun_VAL.tools.0.label>рукоятка</Gun_VAL.tools.0.label>
+  <Gun_VAL.tools.1.label>ствол</Gun_VAL.tools.1.label>
+
+  <Bullet_VAL.label>пуля VAL</Bullet_VAL.label>
+
+  <Gun_GP37A.label>GP-37</Gun_GP37A.label>
+  <Gun_GP37A.description>Воплощение новых тенденций в автоматическом оружии западного производства: принцип работы автоматики основан не на полусвободном затворе, а на коротком ходе газового поршня. Надо сказать, что изменения явно пошли на пользу: эта штурмовая винтовка является первоклассным образцом современного оружия — лёгкого, надёжного и эргономичного.</Gun_GP37A.description>
+  <Gun_GP37A.tools.0.label>рукоятка</Gun_GP37A.tools.0.label>
+  <Gun_GP37A.tools.1.label>ствол</Gun_GP37A.tools.1.label>
+
+  <Bullet_GP37A.label>пуля GP37</Bullet_GP37A.label>
+
+  <Gun_Trc301A.label>Trc-301</Gun_Trc301A.label>
+  <Gun_Trc301A.description>Легкая винтовка с эффективной дальностью стрельбы до 300 метров. Благодаря исключительно плавному спуску, высокой эргономике и небольшому весу это оружие отличается высокой точностью стрельбы, хотя его высокая чувствительность к загрязнению делает его не всегда пригодным для использования в сложных полевых условиях.</Gun_Trc301A.description>
+  <Gun_Trc301A.tools.0.label>рукоятка</Gun_Trc301A.tools.0.label>
+  <Gun_Trc301A.tools.1.label>ствол</Gun_Trc301A.tools.1.label>
+
+  <Bullet_Trc301A.label>пуля Trc-301</Bullet_Trc301A.label>
+
+  <Gun_SGI.label>SGI</Gun_SGI.label>
+  <Gun_SGI.description>Представитель сравнительно нового семейства штурмовых винтовок. Благодаря высокой надежности, точности в бою и удобству использования является одним из лучших образцов оружия этого класса. В Зоне встречается редко и стоит немалых денег, обычно его специально заказывают себе опытные сталкеры.</Gun_SGI.description>
+  <Gun_SGI.tools.0.label>рукоятка</Gun_SGI.tools.0.label>
+  <Gun_SGI.tools.1.label>ствол</Gun_SGI.tools.1.label>
+
+  <Bullet_SGI.label>пуля SGI</Bullet_SGI.label>
+
+  <Gun_HK416A.label>HK-416</Gun_HK416A.label>
+  <Gun_HK416A.description>Преемник M4 и M16, созданный немецкой фирмы "Heckler and Koch". Отличается большей надежностью и устойчивостью к загрязнениям. Немецкое качество. Сделано с чистой совестью.</Gun_HK416A.description>
+  <Gun_HK416A.tools.0.label>рукоятка</Gun_HK416A.tools.0.label>
+  <Gun_HK416A.tools.1.label>ствол</Gun_HK416A.tools.1.label>
+
+  <Bullet_HK416A.label>пуля HK416</Bullet_HK416A.label>
+
+  <Gun_Abakan.label>AC-96/2</Gun_Abakan.label>
+  <Gun_Abakan.description>Оружие элитных частей российской армии. Разработано как замена устаревшему АКМ 74/2. У «Обокана» подвижны не только внутренние механизмы, но и ствольная коробка, и ствол, что уменьшает отдачу и повышает точность стрельбы.</Gun_Abakan.description>
+  <Gun_Abakan.tools.0.label>рукоятка</Gun_Abakan.tools.0.label>
+  <Gun_Abakan.tools.1.label>ствол</Gun_Abakan.tools.1.label>
+
+
+</LanguageData>

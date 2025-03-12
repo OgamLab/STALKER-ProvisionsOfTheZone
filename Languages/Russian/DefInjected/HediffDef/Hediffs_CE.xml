@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <WearingPsYGasMask.label>Противогаз с защитной сеткой</WearingPsYGasMask.label>
+  <WearingPsYGasMask.description>Ненастроенный прототип, разработанный учеными для защиты от пси-излучения.</WearingPsYGasMask.description>
+  <WearingPsYGasMask.stages.0.label>ношение</WearingPsYGasMask.stages.0.label>
+
+  <WearingPsYMask.label>Противогаз с защитой от пси</WearingPsYMask.label>
+  <WearingPsYMask.description>Индивидуальный прототип, разработанный учеными для защиты от пси-излучения.</WearingPsYMask.description>
+  <WearingPsYMask.stages.0.label>ношение</WearingPsYMask.stages.0.label>
+
+
+</LanguageData>

@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--<Gun_Groza.label>Grom S-14</Gun_Groza.label>-->
+  <!--<Gun_Groza.description>Automatic rifle and grenade launcher system – an assault rifle configuration that can come in quite handy in the Zone. A good fit for lovers of ultimate firepower at both short and medium distances.</Gun_Groza.description>-->
+  <!--<Gun_Groza.tools.0.label>stock</Gun_Groza.tools.0.label>-->
+  <!--<Gun_Groza.tools.1.label>barrel</Gun_Groza.tools.1.label>-->
+
+  <!--<Bullet_Groza.label>Groza rifle bullet</Bullet_Groza.label>-->
+
+  <!--<Gun_AKM74M.label>AKM-74</Gun_AKM74M.label>-->
+  <!--<Gun_AKM74M.description>A folding machine gun, model 1974, chambered for 5.45 × 39. It is a simple and reliable weapon, although the low cost of production has somewhat affected the ease of use and accuracy of combat. In the Zone, this is the main weapon of the military, stalkers, and many loners.</Gun_AKM74M.description>-->
+  <!--<Gun_AKM74M.tools.0.label>stock</Gun_AKM74M.tools.0.label>-->
+  <!--<Gun_AKM74M.tools.1.label>barrel</Gun_AKM74M.tools.1.label>-->
+
+  <!--<Bullet_AK.label>AK  bullet</Bullet_AK.label>-->
+
+  <!--<Gun_Dnipro.label>Dnipro</Gun_Dnipro.label>-->
+  <!--<Gun_Dnipro.description>The perfect assault rifle for 5.45x39 cartridges. Excellent damage and high armor-piercing percentage are the key to success. Yes, it is expensive to maintain, but it deserves it. The best machine gun, after which you can forget about balance problems and inflated health of monsters.</Gun_Dnipro.description>-->
+  <!--<Gun_Dnipro.tools.0.label>stock</Gun_Dnipro.tools.0.label>-->
+  <!--<Gun_Dnipro.tools.1.label>barrel</Gun_Dnipro.tools.1.label>-->
+
+  <!--<Bullet_Dnipro.label>Dnipro bullet</Bullet_Dnipro.label>-->
+
+  <!--<Gun_AKSU.label>AKSU</Gun_AKSU.label>-->
+  <!--<Gun_AKSU.description>In terms of dimensions and weight, it is close to submachine guns, but the mechanism is almost completely identical to the AKM-74/2. The small dimensions of the weapon allow it to be successfully used in urban areas and in cramped conditions, and the bullet's penetrating power is quite high. Among the disadvantages are a short sighting range and a tendency to quickly overheat.</Gun_AKSU.description>-->
+  <!--<Gun_AKSU.tools.0.label>stock</Gun_AKSU.tools.0.label>-->
+  <!--<Gun_AKSU.tools.1.label>barrel</Gun_AKSU.tools.1.label>-->
+
+  <!--<Bullet_AKSU.label>AKSU bullet</Bullet_AKSU.label>-->
+
+  <!--<Gun_Fora.label>Fora-221</Gun_Fora.label>-->
+  <!--<Gun_Fora.description>This modular next-gen assault rifle has earned multiple prestigious global accolades, along with unofficial commendations from the stalker community.</Gun_Fora.description>-->
+  <!--<Gun_Fora.tools.0.label>stock</Gun_Fora.tools.0.label>-->
+  <!--<Gun_Fora.tools.1.label>barrel</Gun_Fora.tools.1.label>-->
+
+  <!--<Bullet_Fora.label>Fora bullet</Bullet_Fora.label>-->
+
+  <!--<Gun_FNF2000G.label>FN F2000G</Gun_FNF2000G.label>-->
+  <!--<Gun_FNF2000G.description>Automatic rifle and grenade launcher system – an assault rifle configuration that can come in quite handy in the Zone. A good fit for lovers of ultimate firepower at both short and medium distancesThis is a futuristic type of weapon - a serially changing automatic grenade launcher complex of modular design. It is equipped with a 40-mm grenade launcher and a computerized sight-fire control module. Despite its external bulkiness, it is highly ergonomic, easy to control fire in all modes and highly reliable.</Gun_FNF2000G.description>-->
+  <!--<Gun_FNF2000G.tools.0.label>stock</Gun_FNF2000G.tools.0.label>-->
+  <!--<Gun_FNF2000G.tools.1.label>barrel</Gun_FNF2000G.tools.1.label>-->
+
+  <!--<Bullet_FNF2000G.label>FN F2000 rifle bullet</Bullet_FNF2000G.label>-->
+
+  <!--<Gun_IL86A.label>IL-86</Gun_IL86A.label>-->
+  <!--<Gun_IL86A.description>The shortcomings of this rifle discovered during operation led to the fact that most of the weapons were modernized, and the written-off batches ended up in the Zone through the black market. The main advantages are the standard four-power optical sight, high accuracy of a single shot and high potential for modernization. When firing in bursts, the accuracy of the battle drops sharply, and the automation shows a tendency to delay.</Gun_IL86A.description>-->
+  <!--<Gun_IL86A.tools.0.label>stock</Gun_IL86A.tools.0.label>-->
+  <!--<Gun_IL86A.tools.1.label>barrel</Gun_IL86A.tools.1.label>-->
+
+  <!--<Bullet_IL86A.label>IL86  bullet</Bullet_IL86A.label>-->
+
+  <!--<Gun_Pecheneg.label>PKM</Gun_Pecheneg.label>-->
+  <!--<Gun_Pecheneg.description>The light machine gun, despite its high weight and low accuracy, has found its use in the Zone. It is used mainly to fight superior opponents or to clear mutant lairs.</Gun_Pecheneg.description>-->
+  <!--<Gun_Pecheneg.tools.0.label>stock</Gun_Pecheneg.tools.0.label>-->
+  <!--<Gun_Pecheneg.tools.1.label>barrel</Gun_Pecheneg.tools.1.label>-->
+
+  <!--<Bullet_PKM.label>PKM bullet</Bullet_PKM.label>-->
+
+  <!--<Gun_SVU.label>SVU</Gun_SVU.label>-->
+  <!--<Gun_SVU.description>A more modern version of the SVDm-2 sniper rifle, which uses a bullpup layout to reduce its dimensions. It has a higher rate of fire compared to its "parent" with a smaller weight, while the accuracy of combat at short and medium ranges remains approximately the same. Today it enjoys well-deserved popularity in the troops and among stalkers.</Gun_SVU.description>-->
+  <!--<Gun_SVU.tools.0.label>stock</Gun_SVU.tools.0.label>-->
+  <!--<Gun_SVU.tools.1.label>barrel</Gun_SVU.tools.1.label>-->
+
+  <!--<Bullet_SVU.label>SVU bullet</Bullet_SVU.label>-->
+
+  <!--<Gun_SVD.label>SVD</Gun_SVD.label>-->
+  <!--<Gun_SVD.description>It was widely used in all combat operations conducted by the Soviet army since the early 1960s. It proved itself to be an exceptionally reliable and easy-to-use weapon.</Gun_SVD.description>-->
+  <!--<Gun_SVD.tools.0.label>stock</Gun_SVD.tools.0.label>-->
+  <!--<Gun_SVD.tools.1.label>barrel</Gun_SVD.tools.1.label>-->
+
+  <!--<Bullet_SVD.label>SVD bullet</Bullet_SVD.label>-->
+
+  <!--<Gun_Vintar.label>SSR</Gun_Vintar.label>-->
+  <!--<Gun_Vintar.description>"Special Sniper Rifle" is designed for silent and flameless sniper shooting during special operations when it is necessary to keep the shooter's position secret. Its ammunition provides high armor-piercing and stopping effects; in addition, this weapon is equipped with an integrated silencer and optics. Despite the small-capacity magazine, it is highly valued by stalkers.</Gun_Vintar.description>-->
+  <!--<Gun_Vintar.tools.0.label>stock</Gun_Vintar.tools.0.label>-->
+  <!--<Gun_Vintar.tools.1.label>barrel</Gun_Vintar.tools.1.label>-->
+
+  <!--<Bullet_Vintar.label>SSR bullet</Bullet_Vintar.label>-->
+
+  <!--<Gun_VAL.label>VAL</Gun_VAL.label>-->
+  <!--<Gun_VAL.description>It is based on the silent sniper rifle "Vintar-VS", from which it differs in a folding stock, standard ability to fire in bursts, and a more capacious magazine. It was originally intended for use by special forces in conditions requiring silent and flameless shooting.</Gun_VAL.description>-->
+  <!--<Gun_VAL.tools.0.label>stock</Gun_VAL.tools.0.label>-->
+  <!--<Gun_VAL.tools.1.label>barrel</Gun_VAL.tools.1.label>-->
+
+  <!--<Bullet_VAL.label>VAL bullet</Bullet_VAL.label>-->
+
+  <!--<Gun_GP37A.label>GP-37</Gun_GP37A.label>-->
+  <!--<Gun_GP37A.description>The embodiment of new trends in Western-made automatic weapons: the principle of operation of the automatic system is based not on a semi-free bolt, but on a short stroke of the gas piston. It must be said that the changes have clearly been beneficial: this assault rifle is a first-class example of a modern weapon - light, reliable and ergonomic.</Gun_GP37A.description>-->
+  <!--<Gun_GP37A.tools.0.label>stock</Gun_GP37A.tools.0.label>-->
+  <!--<Gun_GP37A.tools.1.label>barrel</Gun_GP37A.tools.1.label>-->
+
+  <!--<Bullet_GP37A.label>GP37  bullet</Bullet_GP37A.label>-->
+
+  <!--<Gun_Trc301A.label>Trc-301</Gun_Trc301A.label>-->
+  <!--<Gun_Trc301A.description>A lightweight rifle with an effective firing range of up to 300 meters. Thanks to the exceptionally smooth trigger, high ergonomics and light weight, this weapon is characterized by high accuracy of fire, although its high sensitivity to contamination makes it not always suitable for use in difficult field conditions.</Gun_Trc301A.description>-->
+  <!--<Gun_Trc301A.tools.0.label>stock</Gun_Trc301A.tools.0.label>-->
+  <!--<Gun_Trc301A.tools.1.label>barrel</Gun_Trc301A.tools.1.label>-->
+
+  <!--<Bullet_Trc301A.label>Trc-301  bullet</Bullet_Trc301A.label>-->
+
+  <!--<Gun_SGI.label>SGI</Gun_SGI.label>-->
+  <!--<Gun_SGI.description>A representative of a relatively new family of assault rifles. Due to its high reliability, accuracy in combat and ease of use, it is one of the best examples of weapons of this class. It is rarely encountered in the Zone and costs a lot of money; usually, it is specially ordered for themselves by experienced stalkers.</Gun_SGI.description>-->
+  <!--<Gun_SGI.tools.0.label>stock</Gun_SGI.tools.0.label>-->
+  <!--<Gun_SGI.tools.1.label>barrel</Gun_SGI.tools.1.label>-->
+
+  <!--<Bullet_SGI.label>SGI  bullet</Bullet_SGI.label>-->
+
+  <!--<Gun_Mark.label>Mark I EMR</Gun_Mark.label>-->
+  <!--<Gun_Mark.description>An American-made semi-automatic rifle introduced in the early 1950s, it has undergone several modernizations and upgrades over the years..</Gun_Mark.description>-->
+  <!--<Gun_Mark.tools.0.label>stock</Gun_Mark.tools.0.label>-->
+  <!--<Gun_Mark.tools.1.label>barrel</Gun_Mark.tools.1.label>-->
+
+  <!--<Bullet_Mark.label>Mark bullet</Bullet_Mark.label>-->
+
+  <!--<Gun_HK416A.label>HK-416</Gun_HK416A.label>-->
+  <!--<Gun_HK416A.description>The successor to the M4 and M16, created by the German company "Heckler and Koch". It stands out for its greater reliability and resistance to dirt.German quality. Made with a clear conscience.</Gun_HK416A.description>-->
+  <!--<Gun_HK416A.tools.0.label>stock</Gun_HK416A.tools.0.label>-->
+  <!--<Gun_HK416A.tools.1.label>barrel</Gun_HK416A.tools.1.label>-->
+
+  <!--<Bullet_HK416A.label>HK416  bullet</Bullet_HK416A.label>-->
+
+  <!--<Gun_RPG7u.label>RPG-7u</Gun_RPG7u.label>-->
+  <!--<Gun_RPG7u.description>A grenade launcher from the 1960s, which remained in huge quantities in army warehouses, from where it ended up in the Zone. It is a smooth-bore, single-shot, recoilless launcher equipped with a PGO-7 optical sight with a magnification of 2.7 diopters. Its impressive dimensions and heavy weight make this weapon not very common among stalkers, but due to its enormous destructive power and ease of use, it has found loyal admirers in the Zone.</Gun_RPG7u.description>-->
+  <!--<Gun_RPG7u.tools.0.label>stock</Gun_RPG7u.tools.0.label>-->
+  <!--<Gun_RPG7u.tools.1.label>barrel</Gun_RPG7u.tools.1.label>-->
+
+  <!--<Bullet_RPG.label>RPG launcher shell</Bullet_RPG.label>-->
+
+  <!--<Gun_M701A.label>M701 Super</Gun_M701A.label>-->
+  <!--<Gun_M701A.description>Bolt-action sniper rifle. Considered a sport weapon on the Mainland, yet rather popular among mutant hunters and stalkers headed for Prypiat.</Gun_M701A.description>-->
+  <!--<Gun_M701A.tools.0.label>stock</Gun_M701A.tools.0.label>-->
+  <!--<Gun_M701A.tools.1.label>barrel</Gun_M701A.tools.1.label>-->
+
+  <!--<Bullet_M701A.label>M701 bullet</Bullet_M701A.label>-->
+
+  <!--<Gun_Gaussrifle.label>Item 62</Gun_Gaussrifle.label>-->
+  <!--<Gun_Gaussrifle.description>A super-precise weapon assembled by designers in the Zone. It works almost silently, since energy sources are used for filming, not gunpowder gases. Despite the colossal power of the shot, the Gauss gun has very little recoil. In terms of accuracy and lethal force, it surpasses any classic small arms.</Gun_Gaussrifle.description>-->
+  <!--<Gun_Gaussrifle.tools.0.label>stock</Gun_Gaussrifle.tools.0.label>-->
+  <!--<Gun_Gaussrifle.tools.1.label>barrel</Gun_Gaussrifle.tools.1.label>-->
+
+  <!--<Bullet_Gauss.label>Gauss bullet</Bullet_Gauss.label>-->
+
+  <!--<Gun_Bulldog-6A.label>Bulldog-6</Gun_Bulldog-6A.label>-->
+  <!--<Gun_Bulldog-6A.description>A revolver-type grenade launcher. Sometimes simply irreplaceable, in particular when clearing large areas of mutants, attacking guarded stationary objects, in combat with particularly tenacious creatures..</Gun_Bulldog-6A.description>-->
+  <!--<Gun_Bulldog-6A.tools.0.label>stock</Gun_Bulldog-6A.tools.0.label>-->
+  <!--<Gun_Bulldog-6A.tools.1.label>barrel</Gun_Bulldog-6A.tools.1.label>-->
+
+  <!--<Bullet_Bulldog.label>Bulldog launcher shell</Bullet_Bulldog.label>-->
+
+
+</LanguageData>

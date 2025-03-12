@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Gun_Pecheneg.label>ПКМ</Gun_Pecheneg.label>
+  <Gun_Pecheneg.description>Ручной пулемет, несмотря на большой вес и низкую точность, нашел свое применение в Зоне. Используется в основном для борьбы с превосходящими противниками или зачистки логовищ мутантов.</Gun_Pecheneg.description>
+  <Gun_Pecheneg.tools.0.label>приклад</Gun_Pecheneg.tools.0.label>
+  <Gun_Pecheneg.tools.1.label>ствол</Gun_Pecheneg.tools.1.label>
+
+  <Bullet_PKM.label>Пуля ПКМ</Bullet_PKM.label>
+
+  <Gun_SVU.label>СВУ</Gun_SVU.label>
+  <Gun_SVU.description>Более современная версия снайперской винтовки СВДм-2, в которой для уменьшения габаритов использована компоновка буллпап. Обладает более высокой скорострельностью по сравнению со своим «родителем» при меньшем весе, при этом кучность боя на коротких и средних дистанциях остается примерно одинаковой. Сегодня пользуется заслуженной популярностью в войсках и среди сталкеров.</Gun_SVU.description>
+  <Gun_SVU.tools.0.label>рукоятка</Gun_SVU.tools.0.label>
+  <Gun_SVU.tools.1.label>ствол</Gun_SVU.tools.1.label>
+
+  <Bullet_SVU.label>пуля СВУ</Bullet_SVU.label>
+
+  <Gun_Arch.label>Архангел</Gun_Arch.label>
+  <Gun_Arch.description>Винтовка Мосина, изготовленная по индивидуальному заказу для использования в зоне отчуждения. Крайне редка среди военных сталкеров и еще реже среди опытных сталкеров. В ряде ситуаций буквально спасает своего владельца от неприятностей, за что и получила прозвище «Архангел».</Gun_Arch.description>
+  <Gun_Arch.tools.0.label>ложа</Gun_Arch.tools.0.label>
+  <Gun_Arch.tools.1.label>ствол</Gun_Arch.tools.1.label>
+
+  <Bullet_Archangel.label>пуля Архангел</Bullet_Archangel.label>
+
+  <Gun_SVD.label>СВД</Gun_SVD.label>
+  <Gun_SVD.description>Широко применялась во всех боевых операциях, которые вела Советская армия с начала 1960-х годов. Зарекомендовала себя как исключительно надежное и простое в использовании оружие.</Gun_SVD.description>
+  <Gun_SVD.tools.0.label>рукоятка</Gun_SVD.tools.0.label>
+  <Gun_SVD.tools.1.label>ствол</Gun_SVD.tools.1.label>
+
+  <Bullet_SVD.label>пуля СВД</Bullet_SVD.label>
+
+  <Gun_Mark.label>Mark I EMR</Gun_Mark.label>
+  <Gun_Mark.description>Американская полуавтоматическая винтовка, представленная в начале 1950-х годов, за эти годы претерпела несколько модернизаций и усовершенствований.</Gun_Mark.description>
+  <Gun_Mark.tools.0.label>рукоятка</Gun_Mark.tools.0.label>
+  <Gun_Mark.tools.1.label>ствол</Gun_Mark.tools.1.label>
+
+  <Bullet_Mark.label>пуля Mark</Bullet_Mark.label>
+
+  <Gun_RPG7u.label>РПГ-7</Gun_RPG7u.label>
+  <Gun_RPG7u.description>Гранатомет 1960-х годов, в огромных количествах остававшийся на армейских складах, откуда и попал в Зону. Это гладкоствольная, однозарядная, безоткатная установка, оснащенная оптическим прицелом ПГО-7 с кратностью увеличения 2,7 диоптрии. Внушительные габариты и большой вес делают это оружие не слишком распространенным среди сталкеров, но благодаря своей огромной убойной силе и простоте использования оно нашло преданных поклонников в Зоне.</Gun_RPG7u.description>
+  <Gun_RPG7u.tools.0.label>рукоятка</Gun_RPG7u.tools.0.label>
+  <Gun_RPG7u.tools.1.label>ствол</Gun_RPG7u.tools.1.label>
+
+  <Bullet_RPG.label>снаряд для РПГ</Bullet_RPG.label>
+
+  <Gun_M701A.label>M701 Супер</Gun_M701A.label>
+  <Gun_M701A.description>Снайперская винтовка с длинно-скользящим затвором. Считается спортивным оружием на Материке, но довольно популярен среди охотников на мутантов и сталкеров, направляющихся в Припять.</Gun_M701A.description>
+  <Gun_M701A.tools.0.label>рукоятка</Gun_M701A.tools.0.label>
+  <Gun_M701A.tools.1.label>ствол</Gun_M701A.tools.1.label>
+
+  <Bullet_M701A.label>пуля M701</Bullet_M701A.label>
+
+  <Gun_Gaussrifle.label>Изделие-62</Gun_Gaussrifle.label>
+  <Gun_Gaussrifle.description>Прототип сверхточного оружия, которое собрали конструкторы в Зоне. Работает почти бесшумно, поскольку для стрельбы используется энергия артефактов, а не пороховых газов. Несмотря на колоссальную мощность выстрела, отдача у Гаусс-пушки очень невелика. По точности и убойной силе превосходит любое классическое стрелковое оружие.</Gun_Gaussrifle.description>
+  <Gun_Gaussrifle.tools.0.label>рукоятка</Gun_Gaussrifle.tools.0.label>
+  <Gun_Gaussrifle.tools.1.label>ствол</Gun_Gaussrifle.tools.1.label>
+
+  <Bullet_Gauss.label>Пуля Гаусса</Bullet_Gauss.label>
+
+  <Gun_Gaussrifle_HUNTER.label>Серийная гаусс пушка</Gun_Gaussrifle_HUNTER.label>
+  <Gun_Gaussrifle_HUNTER.description>Изделие 62, претерпевшее серьезные изменения. Части артефактов, встроенные в силовые катушки, позволили снаряду разгоняться до более высоких скоростей, что положительно сказалось на точности. За счет увеличения мощности катушек также увеличилось время зарядки конденсаторов. На деревянном прикладе видна надпись: «Не доверяй никому, кроме монолита и братьев твоих, никому...»</Gun_Gaussrifle_HUNTER.description>
+  <Gun_Gaussrifle_HUNTER.tools.0.label>приклад</Gun_Gaussrifle_HUNTER.tools.0.label>
+  <Gun_Gaussrifle_HUNTER.tools.1.label>ствол</Gun_Gaussrifle_HUNTER.tools.1.label>
+
+  <Bullet_HUNTER.label>Пуля Гаусса</Bullet_HUNTER.label>
+
+  <Gun_Bulldog-6A.label> Бульдог-6</Gun_Bulldog-6A.label>
+  <Gun_Bulldog-6A.description>Гранатомет револьверного типа. Иногда просто незаменим, в частности при зачистке больших территорий от мутантов, атаке охраняемых стационарных объектов, в бою с особо живучими тварями.</Gun_Bulldog-6A.description>
+  <Gun_Bulldog-6A.tools.0.label>приклад</Gun_Bulldog-6A.tools.0.label>
+  <Gun_Bulldog-6A.tools.1.label>ствол</Gun_Bulldog-6A.tools.1.label>
+
+
+  <!--<Bullet_Bulldog.label>Снаряд для гранатомета Бульдог</Bullet_Bulldog.label>-->
+
+</LanguageData>

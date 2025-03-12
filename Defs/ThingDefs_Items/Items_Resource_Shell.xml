@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+  <ThingDef ParentName="MakeableShellBase">
+    <defName>UnderBarrelShell</defName>
+    <label>underbarrel grenade</label>
+    <description>A projectile filled with explosives. Can be launched from an underbarrel grenade launcher. Explodes when damaged.</description>
+    <stackLimit>25</stackLimit>
+	  <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>5</MarketValue>
+      <Mass>0.1</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/Resource/Shell/VOG</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+	  <drawSize>0.8</drawSize>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>0.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+        <wickTicks>30~60</wickTicks>
+      </li>
+    </comps>
+    <costList>
+      <Steel>15</Steel>
+      <Chemfuel>15</Chemfuel>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>Mortars</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+  
+ 
+</Defs>

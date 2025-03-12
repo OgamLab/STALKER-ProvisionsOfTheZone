@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Homemade.label>Самодельный</Homemade.label>
+  <Homemade.description>Собрано каким-то техником в Зоне отчуждения.</Homemade.description>
+
+  <Industrial.label>Промышленный</Industrial.label>
+  <Industrial.description>Батарейки, которые производились в секретных лабораториях где-то в Припяти.</Industrial.description>
+
+  <Abnormal.label>Аномальный</Abnormal.label>
+  <Abnormal.description>Батареи, модифицированные с использованием частей гравитационного артефакта.</Abnormal.description>
+
+
+
+</LanguageData>

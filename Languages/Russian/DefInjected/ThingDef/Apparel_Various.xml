@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Stalker_Apparel_Corundum.label>Корундовый костюм</Stalker_Apparel_Corundum.label>
+  <Stalker_Apparel_Corundum.description>Тяжёлый бронированный костюм, используемый штурмовыми группами «Монолита». Производитель явно ценил функциональность больше, чем комфорт, поэтому обычный человек не сможет носить это чудовище больше двух часов.</Stalker_Apparel_Corundum.description>
+
+  <Stalker_Apparel_ArmorExohelmet.label>Экзошлем</Stalker_Apparel_ArmorExohelmet.label>
+  <Stalker_Apparel_ArmorExohelmet.description>Тяжелый экзошлем - когда он был частью экзокостюма.</Stalker_Apparel_ArmorExohelmet.description>
+
+  <Stalker_Apparel_ArmorMerc.label>Костюм наемника</Stalker_Apparel_ArmorMerc.label>
+  <Stalker_Apparel_ArmorMerc.description>Костюм, разработанный наемником, на основе экипировки спецназа. Пластины из высокомолекулярного полиэтилена и арамидная прокладка не только звучат футуристично, но и обеспечивают превосходную защиту от высококоррозионного оружия Zone.</Stalker_Apparel_ArmorMerc.description>
+
+  <Stalker_Apparel_GasMaskMerc.label>Противогаз PA-7</Stalker_Apparel_GasMaskMerc.label>
+  <Stalker_Apparel_GasMaskMerc.description>Военная адаптация гражданского противогаза, оснащенная антибликовыми линзами и гибким креплением фильтра, которое можно прикрепить с любой стороны, что упрощает использование оружия для левшей.</Stalker_Apparel_GasMaskMerc.description>
+
+  <Stalker_Apparel_Facehugger.label>Противогаз PG-4 «Тиски»</Stalker_Apparel_Facehugger.label>
+  <Stalker_Apparel_Facehugger.description>Винтаж Противогаз гражданской обороны, искусно модифицированный для выдерживания суровых условий Зоны. Свое название маска получила из-за усиленного внутреннего каркаса, который слегка сдавливает лицо владельца.</Stalker_Apparel_Facehugger.description>
+
+  <Stalker_Apparel_ArmorMarauder.label>Костюм мародера</Stalker_Apparel_ArmorMarauder.label>
+  <Stalker_Apparel_ArmorMarauder.description>Комбинация стильной куртки и достойного бронежилета. Этот наряд, возможно, не лучший выбор для исследования аномалий, но когда дело доходит до того, чтобы вытрясти из несчастного преследователя, вы не найдете ничего лучше.</Stalker_Apparel_ArmorMarauder.description>
+
+  <Stalker_Apparel_PA10A.label>Противогаз PA-10</Stalker_Apparel_PA10A.label>
+  <Stalker_Apparel_PA10A.description>Новая, экономичная модификация военного противогаза с использованием более плотных материалов. Фильтр больше нельзя прикрепить с противоположной стороны, но корпус был уменьшен в размерах, чтобы компенсировать это ограничение.</Stalker_Apparel_PA10A.description>
+
+  <Stalker_Apparel_PSZ5A.label>Универсальная защита PSZ-5D</Stalker_Apparel_PSZ5A.label>
+  <Stalker_Apparel_PSZ5A.description>Усовершенствованная версия PSZ-5, специально адаптированная для охоты на мутантов, произведенная опытными специалистами «Долга».</Stalker_Apparel_PSZ5A.description>
+
+  <Stalker_Apparel_Aeroprotection.label>Противогаз «Аэрозащита»</Stalker_Apparel_Aeroprotection.label>
+  <Stalker_Apparel_Aeroprotection.description>Стандартное снаряжение для солдат Уорда, этот противогаз обеспечивает надежную защиту от химических и радиационных опасностей. Усиленный козырек добавляет дополнительный уровень защиты от шальных осколков.</Stalker_Apparel_Aeroprotection.description>
+
+  <Stalker_Apparel_Convoy.label>PSZ-20W Конвой</Stalker_Apparel_Convoy.label>
+  <Stalker_Apparel_Convoy.description>Этот костюм представляет новое поколение в серии бронированных костюмов Personal Protection System. Опираясь на опыт своих предшественников, он был разработан в рекордно короткие сроки для удовлетворения особых требований отделения.</Stalker_Apparel_Convoy.description>
+
+  <Stalker_Apparel_Tourist.label>Костюм туриста</Stalker_Apparel_Tourist.label>
+  <Stalker_Apparel_Tourist.description>Бывший владелец этого костюма отлично разбирался в распределении веса и эшелонировании снаряжения. Переработанные карманы, корсет, разгружающий спину, дополнительные подсумки и дорожный рюкзак позволяют нести больший вес, что очень удобно во время длительных рейдов в Зону.</Stalker_Apparel_Tourist.description>
+
+  <Stalker_Apparel_Sunrise.label>Костюм Заря</Stalker_Apparel_Sunrise.label>
+  <Stalker_Apparel_Sunrise.description>Шедевр местного мастерства, этот костюм сочетает в себе два слоя прорезиненной ткани с полимерной подкладкой и бронежилет, эффективный против пистолетных пуль. Разумная цена и потенциал модернизации Sunrise закрепили за ним статус самого продаваемого товара.</Stalker_Apparel_Sunrise.description>
+
+  <Stalker_Apparel_Beryl.label>Бронированный костюм Берилл-5М</Stalker_Apparel_Beryl.label>
+  <Stalker_Apparel_Beryl.description>Этот бронированный специализированный костюм, разработанный для армейских спецподразделений, представляет собой обширную модернизацию серии ПСЗ-5. Хотя это не самый практичный вариант для длительных походов в Зону, его пользователи редко оказываются в таких ситуациях.</Stalker_Apparel_Beryl.description>
+
+  <Stalker_Apparel_SEVA.label>Комбинезон SEVA</Stalker_Apparel_SEVA.label>
+<Stalker_Apparel_SEVA.description>Костюм высшего класса, произведенный оборонной компанией за пределами Зоны. Он объединяет легкий бронежилет, герметичную дыхательную систему и передовые технологии, разработанные для смягчения вредного воздействия аномалий и радиации.</Stalker_Apparel_SEVA.description>
+
+  <Stalker_Apparel_Glasses.label>Баллистичские очки</Stalker_Apparel_Glasses.label>
+<Stalker_Apparel_Glasses.description>Баллистические военные очки — это специальные очки, которые защищают глаза от крупных частиц, пыли и сильного потока воздуха.</Stalker_Apparel_Glasses.description>
+
+  <Stalker_Apparel_TacticalHelmet.label>Баллистичний шлем</Stalker_Apparel_TacticalHelmet.label>
+<Stalker_Apparel_TacticalHelmet.description>Этот головной убор обеспечивает базовую защиту от пистолетных пуль. Он не включает в себя противогаз.</Stalker_Apparel_TacticalHelmet.description>
+
+ <Stalker_Apparel_TacticalHelmetGas.label>Тактический шлем</Stalker_Apparel_TacticalHelmetGas.label>
+<Stalker_Apparel_TacticalHelmetGas.description>Эта эффективная комбинация баллистического шлема и военного противогаза широко применяется военными подразделениями, действующими в Зоне.</Stalker_Apparel_TacticalHelmetGas.description>
+
+ <Stalker_Apparel_PSZ-9I.label>PSZ-9I Сокол</Stalker_Apparel_PSZ-9I.label>
+<Stalker_Apparel_PSZ-9I.description>Партизанская война в Зоне — это целое искусство, и этот костюм — творение тех, кто им овладел. Версия Сокол одного из самых эффективных бронекостюмов по эту сторону Периметра.</Stalker_Apparel_PSZ-9I.description>
+
+ <Stalker_Apparel_Sphere.label>Шлем Сфера M20</Stalker_Apparel_Sphere.label>
+<Stalker_Apparel_Sphere.description>Современный титановый шлем с арамидным усилением, дополненный высококачественным противогазом, оснащенным фотохромными линзами.</Stalker_Apparel_Sphere.description>
+
+
+</LanguageData>
